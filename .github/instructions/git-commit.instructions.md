@@ -34,7 +34,7 @@ Create a git commit following conventional commits format based on the changes s
    - Type and optional scope
    - Imperative mood description (under 50 chars)
    - Optional body for complex changes (wrap at 72 chars)
-4. Create the commit using a heredoc format
+4. Create the commit using `git commit -m ...`
 5. Verify success with `git status -uall`
 6. Add ticket ID and title in the body of the commit message if applicable
 
